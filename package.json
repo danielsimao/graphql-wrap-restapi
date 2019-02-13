@@ -1,0 +1,8 @@
+{
+  "name": "graphql-wrap-restapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/danielsimao/graphql-wrap-restapi.git",
+  "author": "danielsimao <daniel@peliba.com>",
+  "license": "MIT"
+}
