@@ -1,8 +1,8 @@
-scalar Date
-
 type Query {
-  characters(limit: Int): CharacterDataWrapper
+  getCharacters(limit: Int): CharacterDataWrapper
 }
+
+scalar Date
 
 type CharacterDataWrapper {
   code: Int
