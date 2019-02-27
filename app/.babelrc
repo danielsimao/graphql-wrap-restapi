@@ -1,3 +1,10 @@
 {
-  "presets": ["flow"]
+  "presets": ["flow"],
+  "plugins": [
+    ["styled-jsx/babel", { "optimizeForSpeed": true }],
+    [
+      "import",
+      { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }
+    ]
+  ]
 }
